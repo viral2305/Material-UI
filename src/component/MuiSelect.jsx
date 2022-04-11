@@ -15,7 +15,8 @@ export default function MuiSelect() {
             }}>
                 <MenuItem value='IN'>India</MenuItem>
                 <MenuItem value='US'>use</MenuItem>
-                <MenuItem value='AU'>ausria</MenuItem></TextField>
+                <MenuItem value='AU'>ausria</MenuItem>
+            </TextField>
         </Box>
     )
 
