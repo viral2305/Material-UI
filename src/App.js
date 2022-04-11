@@ -12,6 +12,7 @@ import MuiLayout from "./component/MuiLayout";
 import MuiCard from "./component/MuiCard";
 import MuiAccordion from "./component/MuiAccordion";
 import MuiImageList from "./component/MuiImageList";
+import MuiNavbar from "./component/MuiNavbar";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
     {/*<MuiLayout/>*/}
     {/*<MuiCard/>*/}
     {/*<MuiAccordion/>*/}
-    <MuiImageList/>
+    {/*<MuiImageList/>*/}
+    <MuiNavbar/>
     </div>
 
 
