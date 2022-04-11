@@ -12,6 +12,7 @@ export default function MUiCheckbox() {
     }
     const handleSkillChange = (e) => {
         const index = skills.indexOf(e.target.value)
+        console.log("index",index)
         if(index === -1){
             setSkills([...skills,e.target.value])
         } else  {
@@ -29,7 +30,7 @@ export default function MUiCheckbox() {
             <Box>
                 <FormControl>
                     <FormLabel>skills</FormLabel>
-                    <FormGroup>
+                    <FormGroup row>
                         <FormControlLabel control={<Checkbox checked={skills.includes('HTML')}  value='HTML' onChange={handleSkillChange}/>} label='Html'/>
                         <FormControlLabel control={<Checkbox checked={skills.includes('css')} value='css' onChange={handleSkillChange}/>} label='Css'/>
                     </FormGroup>
