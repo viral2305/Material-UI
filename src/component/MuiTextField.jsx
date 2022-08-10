@@ -25,7 +25,7 @@ export default function MuiTextField() {
                 <TextField label='Read only' size='small' color='secondary' InputProps={{readOnly: true}}/>
             </Stack>
             <Stack direction='row' spacing={2}>
-                <TextField label='Amout' InputProps={{
+                <TextField label='Amount' InputProps={{
                     startAdornment: <InputAdornment position='start'>$</InputAdornment>
                 }}/>
                 <TextField label='Weight' InputProps={{

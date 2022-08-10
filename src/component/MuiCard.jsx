@@ -7,7 +7,8 @@ export default function MuiCard() {
             <Card variant='outlined'>
                 <CardMedia component='img' height='140'
                            image='https://source.unsplash.com/random'
-                           alt='unplash'/>
+                           alt='unplash'
+                />
                 <CardContent>
                     <Typography gutterBottom variant='h5' component='div'>React </Typography>
                     <Typography gutterBottom variant='body2' color='text.secondary'>React dfhjalkj kjadhf
@@ -17,6 +18,7 @@ export default function MuiCard() {
                     <Button size='small'>Share</Button>
                     <Button size='small'>Learen more</Button>
                 </CardActions>
+
             </Card>
         </Box>
     )

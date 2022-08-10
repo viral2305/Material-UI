@@ -13,6 +13,10 @@ import MuiCard from "./component/MuiCard";
 import MuiAccordion from "./component/MuiAccordion";
 import MuiImageList from "./component/MuiImageList";
 import MuiNavbar from "./component/MuiNavbar";
+import Drop from "./Drop";
+import Grid from "./Grid";
+import Data from "./component/Date";
+import FileUplaod from "./component/FileUplaod";
 
 function App() {
   return (
@@ -30,7 +34,11 @@ function App() {
     {/*<MuiCard/>*/}
     {/*<MuiAccordion/>*/}
     {/*<MuiImageList/>*/}
-    <MuiNavbar/>
+    {/*<MuiNavbar/>*/}
+    {/*<Drop/>*/}
+    {/*<Grid/>*/}
+    {/*<Data/>*/}
+    <FileUplaod/>
     </div>
 
 
